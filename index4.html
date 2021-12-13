@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lec11</title>
+    <style>
+        .test{
+            background-color: red;
+            padding: 15px;
+            width: 100px;
+            position: relative;
+            top: 100px;
+            left: 100px;
+
+        }
+        .parent{
+            width: 500px;
+            height: 200px;
+            background-color: blue;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .child{
+            background-color: red;
+            width: 120px;
+            height: 50px;
+            position: absolute;
+            bottom: 0;
+        }
+        body{
+            min-height: 2000px;
+        }
+        .fixed a img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 2px solid #000;
+        }
+        .fixed{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+        .stick_div{
+            background-color: red;
+            padding: 20px;
+            color: #fff;
+            position: sticky;
+            top: 0;
+        }
+        .zindex{
+            margin-top: 30px;
+            width: 500px;
+            background-color: gold;
+            height: 200px;
+            position: relative;
+        }
+        .zindex div{
+            width: 100px;
+            padding: 10px;
+        }
+        .one{
+            background-color: red;
+        }
+        .two{
+            background-color: green;
+        }
+        .three{
+            background-color: blue;
+            background-color: blue;
+            position: absolute;
+            top: -8px;
+            z-index: 1;
+        }
+        .zindex:hover{
+            background-color: black;
+            /* width: 600px; */
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <!-- <div class="test">
+   this is first div
+    </div> -->
+    <div class="parent">
+        <div class="child">
+            this is a child div
+        </div>
+
+    </div>
+    <div class="fixed">
+        <a href=""><img src="img/ppr1.png" alt=""></a>
+    </div>
+    <div class="stick_div">
+        this is a sticky position
+    </div>
+
+    <div class="zindex">
+        <div class="one">
+            one
+        </div>
+        <div class="two">
+            two
+        </div>
+        <div class="three">
+            three
+        </div>
+    </div>
+    
+    
+
+    
+</body>
+</html>

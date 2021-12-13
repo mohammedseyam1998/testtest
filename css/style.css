@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Cairo-Regular';
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+@font-face {
+    font-family: 'Cairo-Bold';
+    src: url(../fonts/Cairo-Bold.ttf);
+}
+@font-face{ 
+    font-family:Cairo-SemiBold ;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+body{
+   font-family: 'Cairo-Regular';
+}
+/* p{
+    color: red;
+}
+.test{
+    color: green;  
+}
+#test{
+    color: blue;  
+}
+div{
+    background-color: red;
+    background-image: url(../img/ppr1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+/* div{
+    padding: 80px 70px 60px 50px ;
+    margin: 40px 20px;
+    background-color: red;
+    border: 2px solid #000;
+    display: inline;
+    
+}
+img{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+span{
+    display: inline-block;
+    background: yellow;
+    height: 200px;
+} */
+
+
+/* .item{
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+.not-active{
+    display: none;
+    visibility: hidden;
+}
+
+.content{
+    background-color: gold;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+.mytext h1{
+    text-align: center;
+    text-decoration: line-through;
+}
+.mytext p{
+    letter-spacing: 3px;
+    word-spacing: 20px;
+} */

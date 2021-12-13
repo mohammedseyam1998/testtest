@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/responsiv.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            transition: 1s all ease;
+            
+            
+        }
+        .card{
+            text-align: center;
+            width: 200px;
+            height: 300px;
+            border:2px solid #000;
+            margin: 20px auto;
+            transition: 5s all ease;
+        }
+        .card:hover{
+            background-color: red;
+            transform: rotate(360deg);
+        }
+        .card:hover img{
+           /* transform: scale(1.5); */
+           transform: rotate(360deg);
+           
+           
+
+        }
+        .res {
+            display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background: gold;
+    flex-wrap: wrap;
+        }
+        .res div{
+            background-color: red;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            width: calc(25% - 10px);
+            margin: 5px;
+
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="img/m.jpg" alt="">
+        <h2>MOhammed seyam</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+    </div>
+    <div class="res">
+        <div> Item 1</div>
+        <div> Item 2</div>
+        <div> Item 3</div>
+        <div> Item4</div>
+    </div>
+    
+</body>
+</html>

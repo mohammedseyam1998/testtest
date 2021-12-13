@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .flex {
+        background-color: #eee;
+        width: 600px;
+        padding: 20px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        .flex div {
+        background-color: #f00;
+        color: white;
+        width: 25%;
+        text-align: center;
+        padding: 20px;
+        }
+        .float {
+        overflow: hidden;
+        background-color: #eee;
+        width: 600px;
+        padding: 20px;
+        margin: 20px auto;
+        }
+        .float div {
+        background-color: #f00;
+        color: white;
+        float: left;
+        width: 25%;
+        text-align: center;
+        padding: 20px;
+        }
+        .item-center{
+          height: 40px;
+    width: 40px;
+    margin: 20px auto;
+    background-color: gold;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h3>Flex</h3>
+    <div class="flex">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>five</div>
+    </div>
+    <hr />
+    <h3>Float</h3>
+    <div class="float">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>five</div>
+    </div>
+    <hr>
+    <div class="item-center">
+      <i class="fab fa-facebook-square"></i>
+      
+    </div>
+  </body>
+</html>
